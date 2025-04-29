@@ -1,4 +1,4 @@
-ublic class Task113 {
+public class Task113 {
     public static void main(String[] args) {
         int check_number = 10;
         
