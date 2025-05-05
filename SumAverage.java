@@ -1,6 +1,6 @@
 public class SumAverage {
     public static void main(String[] args) {
-        int[] numbers = {5, 10, 15, 20, 25};
+        int[] numbers = {95, 90, 80, 90, 79};
         int sum = 0;
 
         for (int number : numbers) {
