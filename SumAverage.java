@@ -8,10 +8,10 @@ public class SumAverage {
         }
 
         double average = (double) sum / numbers.length;
-        System.out.println(numbers.length + " numbers are: " 
+        System.out.println("The numbers are: " 
                 + numbers[0] + ", " + numbers[1] + ", " + numbers[2] + ", "
                 + numbers[3] + ", " + numbers[4]);
-        System.out.println("the Sum: " + sum);
-        System.out.println("the Average: " + average);
+        System.out.println("The Sum: " + sum);
+        System.out.println("The Average: " + average);
     }
 }
