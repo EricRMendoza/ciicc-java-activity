@@ -2,7 +2,7 @@
 Write a program that takes in three numbers from the user 
 and outputs the largest number. If all numbers are 
 equal, it will print "All numbers are equal." */
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         // Create a Scanner object to read input
         java.util.Scanner scanner = new java.util.Scanner(System.in);
