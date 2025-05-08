@@ -1,4 +1,4 @@
-/* Loop through and print out all even numbers each in a seperate line
+/* Task6: Loop through and print out all even numbers each in a seperate line
  from the number list in the same order they are received.
  Don't print any numbers that comes after 237 in the sequence.
 
