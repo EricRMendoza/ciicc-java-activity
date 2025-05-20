@@ -1,7 +1,7 @@
 public class Task4 {
     public static void main(String[] args) {
 
-        StringBuilder str = new StringBuilder("anak nasanan kana");
+        StringBuilder str = new StringBuilder("5202025");
         System.out.println("String = " + str.toString());
           
         String original = str.toString();
