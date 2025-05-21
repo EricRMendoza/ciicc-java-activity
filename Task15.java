@@ -1,11 +1,11 @@
-// Interface Shape
+
 interface Shape {
     double calculateArea();
 
     double calculatePerimeter();
 }
 
-// Abstract Class AbstractShape
+
 abstract class AbstractShape implements Shape {
     String color;
     double length;
@@ -17,7 +17,7 @@ abstract class AbstractShape implements Shape {
         this.width = width;
     }
 
-    // Default implementations (can be overridden)
+   
     public double calculateArea() {
         return length * width;
     }
@@ -27,12 +27,12 @@ abstract class AbstractShape implements Shape {
     }
 }
 
-// Circle Class
+
 class Circle extends AbstractShape {
     double radius;
 
     public Circle(String color, double radius) {
-        super(color, 0, 0); // length and width not used
+        super(color, 0, 0); 
         this.radius = radius;
     }
 
@@ -47,16 +47,15 @@ class Circle extends AbstractShape {
     }
 }
 
-// Rectangle Class
+
 class Rectangle extends AbstractShape {
     public Rectangle(String color, double length, double width) {
         super(color, length, width);
     }
 
-    // Inherits calculateArea and calculatePerimeter from AbstractShape
 }
 
-// Main Class
+
 public class Task15 {
     public static void main(String[] args) {
         Shape circle = new Circle("Red", 5.0);
